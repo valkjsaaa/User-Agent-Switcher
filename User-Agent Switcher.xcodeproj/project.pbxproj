@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C17ACA329A1FEC40014A9C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17ACA229A1FEC40014A9C4 /* AppDelegate.swift */; };
+		8C17ACA529A1FEC40014A9C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17ACA429A1FEC40014A9C4 /* SceneDelegate.swift */; };
+		8C17ACA829A1FEC40014A9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C17ACA629A1FEC40014A9C4 /* LaunchScreen.storyboard */; };
+		8C17ACAB29A1FEC40014A9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C17ACA929A1FEC40014A9C4 /* Main.storyboard */; };
+		8C17ACB429A1FEC40014A9C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17ACB329A1FEC40014A9C4 /* AppDelegate.swift */; };
+		8C17ACB729A1FEC40014A9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C17ACB529A1FEC40014A9C4 /* Main.storyboard */; };
+		8C17ACBE29A1FEC40014A9C4 /* User-Agent Switcher Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C17ACBD29A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C17ACC829A1FEC40014A9C4 /* User-Agent Switcher Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C17ACC729A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C17ACCE29A1FEC40014A9C4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8929A1FEC30014A9C4 /* Main.html */; };
+		8C17ACCF29A1FEC40014A9C4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8929A1FEC30014A9C4 /* Main.html */; };
+		8C17ACD029A1FEC40014A9C4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8B29A1FEC30014A9C4 /* Icon.png */; };
+		8C17ACD129A1FEC40014A9C4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8B29A1FEC30014A9C4 /* Icon.png */; };
+		8C17ACD229A1FEC40014A9C4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8C29A1FEC30014A9C4 /* Style.css */; };
+		8C17ACD329A1FEC40014A9C4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8C29A1FEC30014A9C4 /* Style.css */; };
+		8C17ACD429A1FEC40014A9C4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8D29A1FEC30014A9C4 /* Script.js */; };
+		8C17ACD529A1FEC40014A9C4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8D29A1FEC30014A9C4 /* Script.js */; };
+		8C17ACD629A1FEC40014A9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17AC8E29A1FEC30014A9C4 /* ViewController.swift */; };
+		8C17ACD729A1FEC40014A9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17AC8E29A1FEC30014A9C4 /* ViewController.swift */; };
+		8C17ACD829A1FEC40014A9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8F29A1FEC40014A9C4 /* Assets.xcassets */; };
+		8C17ACD929A1FEC40014A9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8F29A1FEC40014A9C4 /* Assets.xcassets */; };
+		8C17ACDA29A1FEC40014A9C4 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17AC9129A1FEC40014A9C4 /* SafariWebExtensionHandler.swift */; };
+		8C17ACDB29A1FEC40014A9C4 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C17AC9129A1FEC40014A9C4 /* SafariWebExtensionHandler.swift */; };
+		8C17ACDC29A1FEC40014A9C4 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9329A1FEC40014A9C4 /* _locales */; };
+		8C17ACDD29A1FEC40014A9C4 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9329A1FEC40014A9C4 /* _locales */; };
+		8C17ACDE29A1FEC40014A9C4 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9429A1FEC40014A9C4 /* images */; };
+		8C17ACDF29A1FEC40014A9C4 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9429A1FEC40014A9C4 /* images */; };
+		8C17ACE029A1FEC40014A9C4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9529A1FEC40014A9C4 /* manifest.json */; };
+		8C17ACE129A1FEC40014A9C4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9529A1FEC40014A9C4 /* manifest.json */; };
+		8C17ACE229A1FEC40014A9C4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9629A1FEC40014A9C4 /* background.js */; };
+		8C17ACE329A1FEC40014A9C4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9629A1FEC40014A9C4 /* background.js */; };
+		8C17ACE429A1FEC40014A9C4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9729A1FEC40014A9C4 /* content.js */; };
+		8C17ACE529A1FEC40014A9C4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9729A1FEC40014A9C4 /* content.js */; };
+		8C17ACE629A1FEC40014A9C4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9829A1FEC40014A9C4 /* popup.html */; };
+		8C17ACE729A1FEC40014A9C4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9829A1FEC40014A9C4 /* popup.html */; };
+		8C17ACE829A1FEC40014A9C4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9929A1FEC40014A9C4 /* popup.css */; };
+		8C17ACE929A1FEC40014A9C4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9929A1FEC40014A9C4 /* popup.css */; };
+		8C17ACEA29A1FEC40014A9C4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9A29A1FEC40014A9C4 /* popup.js */; };
+		8C17ACEB29A1FEC40014A9C4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9A29A1FEC40014A9C4 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C17ACBF29A1FEC40014A9C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C17AC8329A1FEC20014A9C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C17ACBC29A1FEC40014A9C4;
+			remoteInfo = "User-Agent Switcher Extension (iOS)";
+		};
+		8C17ACC929A1FEC40014A9C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C17AC8329A1FEC20014A9C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C17ACC629A1FEC40014A9C4;
+			remoteInfo = "User-Agent Switcher Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C17ACF129A1FEC40014A9C4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C17ACBE29A1FEC40014A9C4 /* User-Agent Switcher Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACF829A1FEC40014A9C4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C17ACC829A1FEC40014A9C4 /* User-Agent Switcher Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C17AC8A29A1FEC30014A9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		8C17AC8B29A1FEC30014A9C4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8C17AC8C29A1FEC30014A9C4 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		8C17AC8D29A1FEC30014A9C4 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		8C17AC8E29A1FEC30014A9C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C17AC8F29A1FEC40014A9C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C17AC9129A1FEC40014A9C4 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		8C17AC9329A1FEC40014A9C4 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		8C17AC9429A1FEC40014A9C4 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		8C17AC9529A1FEC40014A9C4 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		8C17AC9629A1FEC40014A9C4 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		8C17AC9729A1FEC40014A9C4 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		8C17AC9829A1FEC40014A9C4 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		8C17AC9929A1FEC40014A9C4 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		8C17AC9A29A1FEC40014A9C4 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		8C17AC9F29A1FEC40014A9C4 /* User-Agent Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User-Agent Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C17ACA229A1FEC40014A9C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C17ACA429A1FEC40014A9C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C17ACA729A1FEC40014A9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C17ACAA29A1FEC40014A9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C17ACAC29A1FEC40014A9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C17ACB129A1FEC40014A9C4 /* User-Agent Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User-Agent Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C17ACB329A1FEC40014A9C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C17ACB629A1FEC40014A9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C17ACB829A1FEC40014A9C4 /* User-Agent Switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "User-Agent Switcher.entitlements"; sourceTree = "<group>"; };
+		8C17ACBD29A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "User-Agent Switcher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C17ACC229A1FEC40014A9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C17ACC729A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "User-Agent Switcher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C17ACCC29A1FEC40014A9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C17ACCD29A1FEC40014A9C4 /* User-Agent Switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "User-Agent Switcher.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C17AC9C29A1FEC40014A9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACAE29A1FEC40014A9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACBA29A1FEC40014A9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACC429A1FEC40014A9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C17AC8229A1FEC20014A9C4 = {
+			isa = PBXGroup;
+			children = (
+				8C17AC8729A1FEC30014A9C4 /* Shared (App) */,
+				8C17AC9029A1FEC40014A9C4 /* Shared (Extension) */,
+				8C17ACA129A1FEC40014A9C4 /* iOS (App) */,
+				8C17ACB229A1FEC40014A9C4 /* macOS (App) */,
+				8C17ACC129A1FEC40014A9C4 /* iOS (Extension) */,
+				8C17ACCB29A1FEC40014A9C4 /* macOS (Extension) */,
+				8C17ACA029A1FEC40014A9C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C17AC8729A1FEC30014A9C4 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				8C17AC8E29A1FEC30014A9C4 /* ViewController.swift */,
+				8C17AC8F29A1FEC40014A9C4 /* Assets.xcassets */,
+				8C17AC8829A1FEC30014A9C4 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		8C17AC8829A1FEC30014A9C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C17AC8929A1FEC30014A9C4 /* Main.html */,
+				8C17AC8B29A1FEC30014A9C4 /* Icon.png */,
+				8C17AC8C29A1FEC30014A9C4 /* Style.css */,
+				8C17AC8D29A1FEC30014A9C4 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8C17AC9029A1FEC40014A9C4 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				8C17AC9129A1FEC40014A9C4 /* SafariWebExtensionHandler.swift */,
+				8C17AC9229A1FEC40014A9C4 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		8C17AC9229A1FEC40014A9C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C17AC9329A1FEC40014A9C4 /* _locales */,
+				8C17AC9429A1FEC40014A9C4 /* images */,
+				8C17AC9529A1FEC40014A9C4 /* manifest.json */,
+				8C17AC9629A1FEC40014A9C4 /* background.js */,
+				8C17AC9729A1FEC40014A9C4 /* content.js */,
+				8C17AC9829A1FEC40014A9C4 /* popup.html */,
+				8C17AC9929A1FEC40014A9C4 /* popup.css */,
+				8C17AC9A29A1FEC40014A9C4 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8C17ACA029A1FEC40014A9C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C17AC9F29A1FEC40014A9C4 /* User-Agent Switcher.app */,
+				8C17ACB129A1FEC40014A9C4 /* User-Agent Switcher.app */,
+				8C17ACBD29A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */,
+				8C17ACC729A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C17ACA129A1FEC40014A9C4 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				8C17ACA229A1FEC40014A9C4 /* AppDelegate.swift */,
+				8C17ACA429A1FEC40014A9C4 /* SceneDelegate.swift */,
+				8C17ACA629A1FEC40014A9C4 /* LaunchScreen.storyboard */,
+				8C17ACA929A1FEC40014A9C4 /* Main.storyboard */,
+				8C17ACAC29A1FEC40014A9C4 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		8C17ACB229A1FEC40014A9C4 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				8C17ACB329A1FEC40014A9C4 /* AppDelegate.swift */,
+				8C17ACB529A1FEC40014A9C4 /* Main.storyboard */,
+				8C17ACB829A1FEC40014A9C4 /* User-Agent Switcher.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		8C17ACC129A1FEC40014A9C4 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				8C17ACC229A1FEC40014A9C4 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		8C17ACCB29A1FEC40014A9C4 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				8C17ACCC29A1FEC40014A9C4 /* Info.plist */,
+				8C17ACCD29A1FEC40014A9C4 /* User-Agent Switcher.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C17AC9E29A1FEC40014A9C4 /* User-Agent Switcher (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C17ACF229A1FEC40014A9C4 /* Build configuration list for PBXNativeTarget "User-Agent Switcher (iOS)" */;
+			buildPhases = (
+				8C17AC9B29A1FEC40014A9C4 /* Sources */,
+				8C17AC9C29A1FEC40014A9C4 /* Frameworks */,
+				8C17AC9D29A1FEC40014A9C4 /* Resources */,
+				8C17ACF129A1FEC40014A9C4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C17ACC029A1FEC40014A9C4 /* PBXTargetDependency */,
+			);
+			name = "User-Agent Switcher (iOS)";
+			productName = "User-Agent Switcher (iOS)";
+			productReference = 8C17AC9F29A1FEC40014A9C4 /* User-Agent Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C17ACB029A1FEC40014A9C4 /* User-Agent Switcher (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C17ACF929A1FEC40014A9C4 /* Build configuration list for PBXNativeTarget "User-Agent Switcher (macOS)" */;
+			buildPhases = (
+				8C17ACAD29A1FEC40014A9C4 /* Sources */,
+				8C17ACAE29A1FEC40014A9C4 /* Frameworks */,
+				8C17ACAF29A1FEC40014A9C4 /* Resources */,
+				8C17ACF829A1FEC40014A9C4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C17ACCA29A1FEC40014A9C4 /* PBXTargetDependency */,
+			);
+			name = "User-Agent Switcher (macOS)";
+			productName = "User-Agent Switcher (macOS)";
+			productReference = 8C17ACB129A1FEC40014A9C4 /* User-Agent Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C17ACBC29A1FEC40014A9C4 /* User-Agent Switcher Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C17ACEE29A1FEC40014A9C4 /* Build configuration list for PBXNativeTarget "User-Agent Switcher Extension (iOS)" */;
+			buildPhases = (
+				8C17ACB929A1FEC40014A9C4 /* Sources */,
+				8C17ACBA29A1FEC40014A9C4 /* Frameworks */,
+				8C17ACBB29A1FEC40014A9C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "User-Agent Switcher Extension (iOS)";
+			productName = "User-Agent Switcher Extension (iOS)";
+			productReference = 8C17ACBD29A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8C17ACC629A1FEC40014A9C4 /* User-Agent Switcher Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C17ACF529A1FEC40014A9C4 /* Build configuration list for PBXNativeTarget "User-Agent Switcher Extension (macOS)" */;
+			buildPhases = (
+				8C17ACC329A1FEC40014A9C4 /* Sources */,
+				8C17ACC429A1FEC40014A9C4 /* Frameworks */,
+				8C17ACC529A1FEC40014A9C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "User-Agent Switcher Extension (macOS)";
+			productName = "User-Agent Switcher Extension (macOS)";
+			productReference = 8C17ACC729A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C17AC8329A1FEC20014A9C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8C17AC9E29A1FEC40014A9C4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8C17ACB029A1FEC40014A9C4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8C17ACBC29A1FEC40014A9C4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8C17ACC629A1FEC40014A9C4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8C17AC8629A1FEC20014A9C4 /* Build configuration list for PBXProject "User-Agent Switcher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C17AC8229A1FEC20014A9C4;
+			productRefGroup = 8C17ACA029A1FEC40014A9C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C17AC9E29A1FEC40014A9C4 /* User-Agent Switcher (iOS) */,
+				8C17ACB029A1FEC40014A9C4 /* User-Agent Switcher (macOS) */,
+				8C17ACBC29A1FEC40014A9C4 /* User-Agent Switcher Extension (iOS) */,
+				8C17ACC629A1FEC40014A9C4 /* User-Agent Switcher Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C17AC9D29A1FEC40014A9C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C17ACD029A1FEC40014A9C4 /* Icon.png in Resources */,
+				8C17ACA829A1FEC40014A9C4 /* LaunchScreen.storyboard in Resources */,
+				8C17ACCE29A1FEC40014A9C4 /* Main.html in Resources */,
+				8C17ACD429A1FEC40014A9C4 /* Script.js in Resources */,
+				8C17ACD829A1FEC40014A9C4 /* Assets.xcassets in Resources */,
+				8C17ACAB29A1FEC40014A9C4 /* Main.storyboard in Resources */,
+				8C17ACD229A1FEC40014A9C4 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACAF29A1FEC40014A9C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C17ACD129A1FEC40014A9C4 /* Icon.png in Resources */,
+				8C17ACD329A1FEC40014A9C4 /* Style.css in Resources */,
+				8C17ACB729A1FEC40014A9C4 /* Main.storyboard in Resources */,
+				8C17ACD529A1FEC40014A9C4 /* Script.js in Resources */,
+				8C17ACD929A1FEC40014A9C4 /* Assets.xcassets in Resources */,
+				8C17ACCF29A1FEC40014A9C4 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACBB29A1FEC40014A9C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C17ACE229A1FEC40014A9C4 /* background.js in Resources */,
+				8C17ACE829A1FEC40014A9C4 /* popup.css in Resources */,
+				8C17ACE629A1FEC40014A9C4 /* popup.html in Resources */,
+				8C17ACDE29A1FEC40014A9C4 /* images in Resources */,
+				8C17ACE029A1FEC40014A9C4 /* manifest.json in Resources */,
+				8C17ACDC29A1FEC40014A9C4 /* _locales in Resources */,
+				8C17ACE429A1FEC40014A9C4 /* content.js in Resources */,
+				8C17ACEA29A1FEC40014A9C4 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACC529A1FEC40014A9C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C17ACE329A1FEC40014A9C4 /* background.js in Resources */,
+				8C17ACE929A1FEC40014A9C4 /* popup.css in Resources */,
+				8C17ACE729A1FEC40014A9C4 /* popup.html in Resources */,
+				8C17ACDF29A1FEC40014A9C4 /* images in Resources */,
+				8C17ACE129A1FEC40014A9C4 /* manifest.json in Resources */,
+				8C17ACDD29A1FEC40014A9C4 /* _locales in Resources */,
+				8C17ACE529A1FEC40014A9C4 /* content.js in Resources */,
+				8C17ACEB29A1FEC40014A9C4 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C17AC9B29A1FEC40014A9C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C17ACD629A1FEC40014A9C4 /* ViewController.swift in Sources */,
+				8C17ACA329A1FEC40014A9C4 /* AppDelegate.swift in Sources */,
+				8C17ACA529A1FEC40014A9C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACAD29A1FEC40014A9C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C17ACD729A1FEC40014A9C4 /* ViewController.swift in Sources */,
+				8C17ACB429A1FEC40014A9C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACB929A1FEC40014A9C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C17ACDA29A1FEC40014A9C4 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C17ACC329A1FEC40014A9C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C17ACDB29A1FEC40014A9C4 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C17ACC029A1FEC40014A9C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C17ACBC29A1FEC40014A9C4 /* User-Agent Switcher Extension (iOS) */;
+			targetProxy = 8C17ACBF29A1FEC40014A9C4 /* PBXContainerItemProxy */;
+		};
+		8C17ACCA29A1FEC40014A9C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C17ACC629A1FEC40014A9C4 /* User-Agent Switcher Extension (macOS) */;
+			targetProxy = 8C17ACC929A1FEC40014A9C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C17AC8929A1FEC30014A9C4 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C17AC8A29A1FEC30014A9C4 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		8C17ACA629A1FEC40014A9C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C17ACA729A1FEC40014A9C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8C17ACA929A1FEC40014A9C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C17ACAA29A1FEC40014A9C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C17ACB529A1FEC40014A9C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C17ACB629A1FEC40014A9C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C17ACEC29A1FEC40014A9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C17ACED29A1FEC40014A9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8C17ACEF29A1FEC40014A9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38RXH56U3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "User-Agent Switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jackieyang.User-Agent-Switcher.Extension";
+				PRODUCT_NAME = "User-Agent Switcher Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C17ACF029A1FEC40014A9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38RXH56U3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "User-Agent Switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jackieyang.User-Agent-Switcher.Extension";
+				PRODUCT_NAME = "User-Agent Switcher Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C17ACF329A1FEC40014A9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38RXH56U3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "User-Agent Switcher";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jackieyang.User-Agent-Switcher";
+				PRODUCT_NAME = "User-Agent Switcher";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C17ACF429A1FEC40014A9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38RXH56U3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "User-Agent Switcher";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jackieyang.User-Agent-Switcher";
+				PRODUCT_NAME = "User-Agent Switcher";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C17ACF629A1FEC40014A9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/User-Agent Switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38RXH56U3G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "User-Agent Switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jackieyang.User-Agent-Switcher.Extension";
+				PRODUCT_NAME = "User-Agent Switcher Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8C17ACF729A1FEC40014A9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/User-Agent Switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38RXH56U3G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "User-Agent Switcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jackieyang.User-Agent-Switcher.Extension";
+				PRODUCT_NAME = "User-Agent Switcher Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8C17ACFA29A1FEC40014A9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/User-Agent Switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38RXH56U3G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "User-Agent Switcher";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jackieyang.User-Agent-Switcher";
+				PRODUCT_NAME = "User-Agent Switcher";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8C17ACFB29A1FEC40014A9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/User-Agent Switcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38RXH56U3G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "User-Agent Switcher";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jackieyang.User-Agent-Switcher";
+				PRODUCT_NAME = "User-Agent Switcher";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C17AC8629A1FEC20014A9C4 /* Build configuration list for PBXProject "User-Agent Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C17ACEC29A1FEC40014A9C4 /* Debug */,
+				8C17ACED29A1FEC40014A9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C17ACEE29A1FEC40014A9C4 /* Build configuration list for PBXNativeTarget "User-Agent Switcher Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C17ACEF29A1FEC40014A9C4 /* Debug */,
+				8C17ACF029A1FEC40014A9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C17ACF229A1FEC40014A9C4 /* Build configuration list for PBXNativeTarget "User-Agent Switcher (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C17ACF329A1FEC40014A9C4 /* Debug */,
+				8C17ACF429A1FEC40014A9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C17ACF529A1FEC40014A9C4 /* Build configuration list for PBXNativeTarget "User-Agent Switcher Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C17ACF629A1FEC40014A9C4 /* Debug */,
+				8C17ACF729A1FEC40014A9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C17ACF929A1FEC40014A9C4 /* Build configuration list for PBXNativeTarget "User-Agent Switcher (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C17ACFA29A1FEC40014A9C4 /* Debug */,
+				8C17ACFB29A1FEC40014A9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C17AC8329A1FEC20014A9C4 /* Project object */;
+}
