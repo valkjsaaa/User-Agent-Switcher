@@ -45,6 +45,8 @@
 		8C17ACE929A1FEC40014A9C4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9929A1FEC40014A9C4 /* popup.css */; };
 		8C17ACEA29A1FEC40014A9C4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9A29A1FEC40014A9C4 /* popup.js */; };
 		8C17ACEB29A1FEC40014A9C4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC9A29A1FEC40014A9C4 /* popup.js */; };
+		8C17ACFD29A209330014A9C4 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C17ACFC29A208E20014A9C4 /* rules.json */; };
+		8C17ACFE29A209340014A9C4 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C17ACFC29A208E20014A9C4 /* rules.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,7 @@
 		8C17ACC729A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "User-Agent Switcher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C17ACCC29A1FEC40014A9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C17ACCD29A1FEC40014A9C4 /* User-Agent Switcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "User-Agent Switcher.entitlements"; sourceTree = "<group>"; };
+		8C17ACFC29A208E20014A9C4 /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rules.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +211,7 @@
 				8C17AC9829A1FEC40014A9C4 /* popup.html */,
 				8C17AC9929A1FEC40014A9C4 /* popup.css */,
 				8C17AC9A29A1FEC40014A9C4 /* popup.js */,
+				8C17ACFC29A208E20014A9C4 /* rules.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -417,6 +421,7 @@
 				8C17ACE229A1FEC40014A9C4 /* background.js in Resources */,
 				8C17ACE829A1FEC40014A9C4 /* popup.css in Resources */,
 				8C17ACE629A1FEC40014A9C4 /* popup.html in Resources */,
+				8C17ACFD29A209330014A9C4 /* rules.json in Resources */,
 				8C17ACDE29A1FEC40014A9C4 /* images in Resources */,
 				8C17ACE029A1FEC40014A9C4 /* manifest.json in Resources */,
 				8C17ACDC29A1FEC40014A9C4 /* _locales in Resources */,
@@ -432,6 +437,7 @@
 				8C17ACE329A1FEC40014A9C4 /* background.js in Resources */,
 				8C17ACE929A1FEC40014A9C4 /* popup.css in Resources */,
 				8C17ACE729A1FEC40014A9C4 /* popup.html in Resources */,
+				8C17ACFE29A209340014A9C4 /* rules.json in Resources */,
 				8C17ACDF29A1FEC40014A9C4 /* images in Resources */,
 				8C17ACE129A1FEC40014A9C4 /* manifest.json in Resources */,
 				8C17ACDD29A1FEC40014A9C4 /* _locales in Resources */,

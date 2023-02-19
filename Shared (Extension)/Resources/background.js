@@ -1,6 +1,4 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-
-    if (request.greeting === "hello")
-        sendResponse({ farewell: "goodbye" });
+chrome.declarativeNetRequest.onRuleMatchedDebug.addListener((details) => {
+    console.log("Rule matched: ", details);
 });
+console.log("background.js loaded");
