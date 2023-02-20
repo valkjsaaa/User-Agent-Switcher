@@ -13,7 +13,8 @@
       ]
     },
     "condition": {
-      "urlFilter": "bing.com"
+      "urlFilter": "bing.com",
+      "resourceTypes": ["main_frame"]
     }
   },
   {
@@ -30,7 +31,8 @@
       ]
     },
     "condition": {
-      "urlFilter": "whatismybrowser.com"
+      "urlFilter": "whatismybrowser.com",
+      "resourceTypes": ["main_frame"]
     }
   }
 ]
