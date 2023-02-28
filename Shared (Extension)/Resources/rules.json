@@ -34,5 +34,23 @@
       "urlFilter": "whatismybrowser.com",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "user-agent",
+          "operation": "set",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) jlc-assistant/5.0.69 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "jlc.com",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ]

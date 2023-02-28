@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "uas_icon-2@0.25x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "uas_icon-1@0.5x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "uas_icon@0.75x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

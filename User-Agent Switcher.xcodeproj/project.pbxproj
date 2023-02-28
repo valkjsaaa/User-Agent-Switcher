@@ -17,8 +17,6 @@
 		8C17ACC829A1FEC40014A9C4 /* User-Agent Switcher Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C17ACC729A1FEC40014A9C4 /* User-Agent Switcher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8C17ACCE29A1FEC40014A9C4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8929A1FEC30014A9C4 /* Main.html */; };
 		8C17ACCF29A1FEC40014A9C4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8929A1FEC30014A9C4 /* Main.html */; };
-		8C17ACD029A1FEC40014A9C4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8B29A1FEC30014A9C4 /* Icon.png */; };
-		8C17ACD129A1FEC40014A9C4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8B29A1FEC30014A9C4 /* Icon.png */; };
 		8C17ACD229A1FEC40014A9C4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8C29A1FEC30014A9C4 /* Style.css */; };
 		8C17ACD329A1FEC40014A9C4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8C29A1FEC30014A9C4 /* Style.css */; };
 		8C17ACD429A1FEC40014A9C4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C17AC8D29A1FEC30014A9C4 /* Script.js */; };
@@ -92,8 +90,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C0CB30C29AD7DA1003B68CE /* icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-512.png"; sourceTree = "<group>"; };
 		8C17AC8A29A1FEC30014A9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		8C17AC8B29A1FEC30014A9C4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		8C17AC8C29A1FEC30014A9C4 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		8C17AC8D29A1FEC30014A9C4 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		8C17AC8E29A1FEC30014A9C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -183,8 +181,8 @@
 		8C17AC8829A1FEC30014A9C4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8C0CB30C29AD7DA1003B68CE /* icon-512.png */,
 				8C17AC8929A1FEC30014A9C4 /* Main.html */,
-				8C17AC8B29A1FEC30014A9C4 /* Icon.png */,
 				8C17AC8C29A1FEC30014A9C4 /* Style.css */,
 				8C17AC8D29A1FEC30014A9C4 /* Script.js */,
 			);
@@ -391,7 +389,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C17ACD029A1FEC40014A9C4 /* Icon.png in Resources */,
 				8C17ACA829A1FEC40014A9C4 /* LaunchScreen.storyboard in Resources */,
 				8C17ACCE29A1FEC40014A9C4 /* Main.html in Resources */,
 				8C17ACD429A1FEC40014A9C4 /* Script.js in Resources */,
@@ -405,7 +402,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C17ACD129A1FEC40014A9C4 /* Icon.png in Resources */,
 				8C17ACD329A1FEC40014A9C4 /* Style.css in Resources */,
 				8C17ACB729A1FEC40014A9C4 /* Main.storyboard in Resources */,
 				8C17ACD529A1FEC40014A9C4 /* Script.js in Resources */,
