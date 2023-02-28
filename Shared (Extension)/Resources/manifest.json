@@ -22,7 +22,7 @@
   },
   "host_permissions": [
     "*://*.bing.com/*",
-    "*://*.jlc.com/*",
+    "*://*.jlc.com/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
